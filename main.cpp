@@ -4,14 +4,13 @@ using namespace std;
 
 int main()
 {
-    int a,b;
-    cout << "Introduceti valoarea 1: ";
+    int a,b, p;
+    cout << "Introduceti valoarea: ";
     cin >> a;
-    cout << "Introduceti valoarea 2: ";
+    cout << "Introduceti cantitatea: ";
     cin >> b;
-    if(a <b)
-        cout << "Crescatoare" << endl;
-    else
-        cout << "Ne-crescatoare" << endl;
+    p = a*b;
+        cout << "Pretul:" << p <<endl;
+
     return 0;
 }
