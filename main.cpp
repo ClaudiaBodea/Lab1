@@ -4,12 +4,12 @@ using namespace std;
 
 int main()
 {
-    int nr;
-    cout << "Introduceti un numar intreg : ";
-    cin >> nr;
-    if(nr >= 90 && nr <= 100)
-        cout << "In interval" << endl;
+    int v;
+    cout << "Introduceti varsta ";
+    cin >> v;
+    if(v >18)
+        cout << "Majora" << endl;
     else
-        cout << "Inafara intervalului" << endl;
+        cout << "Minora" << endl;
     return 0;
 }
